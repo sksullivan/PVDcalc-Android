@@ -30,15 +30,17 @@ public class PVDcalcActivity extends Activity implements OnClickListener {
 	}
 
 	public void onClick(View v) {
-		// Log.e("Error", );
-		switch (view.getId()) {
+		 Log.e("Error", "EVENT");
+		switch (v.getId()) {
 		case R.id.unit:
+			Log.e("Error", "POOTIS");
 			if (unit < 2) {
 				unit++;
 			} else {
 				unit = 0;
 			}
 		}
+		updateUnit();
 	}
 
 	public void updateUnit() {
