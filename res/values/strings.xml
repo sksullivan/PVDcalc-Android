@@ -4,8 +4,11 @@
     <string name="lab1">Focal Length</string>
     <string name="lab2">Image Sensor Width</string>
     <string name="lab3">Image Width</string>
-    <string name="lab4">Viewing Distance</string><string name="unit1">Mm</string>
+    <string name="lab4">Viewing Distance</string>
+    <string name="lab5">Horizontal Field of View</string>
+    <string name="unit1">Mm</string>
     <string name="unit2">Cm</string>
+    <string name="unit3">Ft</string>
+    <string name="unit4">deg.</string>
     <string name="compute">Compute Viewing Distance</string>
-    
 </resources>

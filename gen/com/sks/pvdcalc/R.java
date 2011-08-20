@@ -18,28 +18,38 @@ public final class R {
         public static final int arrow2=0x7f05000c;
         public static final int compute=0x7f05000b;
         public static final int fl=0x7f050001;
+        public static final int hfov=0x7f05000f;
         public static final int isw=0x7f050005;
         public static final int iw=0x7f050008;
         public static final int lab1=0x7f050000;
         public static final int lab2=0x7f050002;
         public static final int lab3=0x7f050006;
-        public static final int lab4=0x7f05000d;
+        public static final int lab4=0x7f050011;
+        public static final int lab5=0x7f05000d;
+        public static final int lab6=0x7f050010;
+        public static final int lab7=0x7f050014;
         public static final int linearLayout1=0x7f050004;
+        public static final int linearLayout2=0x7f05000e;
         public static final int textView4=0x7f050003;
         public static final int textView5=0x7f050007;
         public static final int unit=0x7f050009;
+        public static final int vdf=0x7f050012;
+        public static final int vdm=0x7f050013;
     }
     public static final class layout {
         public static final int main=0x7f030000;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
-        public static final int compute=0x7f040007;
+        public static final int compute=0x7f04000a;
         public static final int lab1=0x7f040001;
         public static final int lab2=0x7f040002;
         public static final int lab3=0x7f040003;
         public static final int lab4=0x7f040004;
-        public static final int unit1=0x7f040005;
-        public static final int unit2=0x7f040006;
+        public static final int lab5=0x7f040005;
+        public static final int unit1=0x7f040006;
+        public static final int unit2=0x7f040007;
+        public static final int unit3=0x7f040008;
+        public static final int unit4=0x7f040009;
     }
 }

@@ -8,9 +8,7 @@
   <LinearLayout
       android:orientation="horizontal"
       android:layout_width="fill_parent" android:layout_height="wrap_content">
-      <EditText android:id="@+id/fl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
-          <requestFocus></requestFocus>
-      </EditText>
+      <EditText android:id="@+id/fl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"></EditText>
       <TextView android:id="@+id/lab2" android:text="@string/unit1" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:gravity="center_horizontal" android:layout_weight="0.19"></TextView>
   </LinearLayout>
   <TextView android:id="@+id/textView4" android:layout_width="wrap_content" android:text="@string/lab2" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content"></TextView>
@@ -23,11 +21,23 @@
       android:orientation="horizontal"
       android:layout_width="fill_parent" android:layout_height="wrap_content">
       <EditText android:id="@+id/iw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"></EditText>
-      <Button android:text="@string/unit2" android:id="@+id/unit" android:layout_height="wrap_content" android:layout_width="wrap_content"></Button>
+      <Button android:text="@string/unit2" android:id="@+id/unit" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="0.14"></Button>
   </LinearLayout>
   <ImageView android:id="@+id/arrow1" android:src="@android:drawable/arrow_down_float" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal"></ImageView>
   <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/compute" android:text="@string/compute"></Button>
   <ImageView android:id="@+id/arrow2" android:src="@android:drawable/arrow_down_float" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal"></ImageView>
+  <TextView android:layout_height="wrap_content" android:id="@+id/lab5" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/lab5" android:layout_width="wrap_content"></TextView>
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout2">
+      <EditText android:id="@+id/hfov" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"></EditText>
+      <TextView android:id="@+id/lab6" android:text="@string/unit4" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:gravity="center_horizontal" android:layout_weight="0.16"></TextView>
+  </LinearLayout>
   <TextView android:id="@+id/lab4" android:layout_width="wrap_content" android:text="@string/lab4" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content"></TextView>
-
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout2">
+      <EditText android:id="@+id/vdf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"></EditText>
+      <TextView android:id="@+id/lab6" android:text="@string/unit3" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:gravity="center_horizontal" android:layout_weight="0.25"></TextView>
+  </LinearLayout>
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout2">
+      <EditText android:id="@+id/vdm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"></EditText>
+      <TextView android:id="@+id/lab7" android:text="@string/unit2" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:gravity="center_horizontal" android:layout_weight="0.20"></TextView>
+  </LinearLayout>
 </LinearLayout>
