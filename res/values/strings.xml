@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PVDcalc</string>
+    <string name="lab1">Focal Length</string>
+    <string name="lab2">Image Sensor Width</string>
+    <string name="lab3">Image Width</string>
+    <string name="lab4">Viewing Distance</string><string name="unit1">Mm</string>
+    <string name="unit2">Mm</string>
+    <string name="compute">Compute Viewing Distance</string>
+    
+</resources>
