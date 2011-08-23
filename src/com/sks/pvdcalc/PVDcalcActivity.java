@@ -112,6 +112,6 @@ public class PVDcalcActivity extends Activity implements OnClickListener {
 
 		hfovText.setText(Double.toString(hfovd));
 		vdFtText.setText(Double.toString(vd/304.8));
-		vdMText.setText(Double.toString(vd/10));
+		vdMText.setText(Double.toString(vd/100));
 	}
 }
